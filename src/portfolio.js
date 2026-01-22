@@ -23,9 +23,9 @@ const greeting = {
   username: "Ahmed Khaled",
   title: "Hi, I'm Ahmed Khaled",
   subTitle: emoji(
-    "Android Developer 🚀 with ITI and real production experience. I specialize in building scalable Android applications using Kotlin, MVVM, Clean Architecture, and modern Android tech stack."
+    "Android Developer 🚀 passionate about building clean, scalable mobile applications. Specialized in Kotlin, MVVM, Clean Architecture, and modern Android development practices."
   ),
-  resumeLink: "/Ahmed_Khaled.pdf", // هنربط الـ CV المحلي
+  resumeLink: "/Ahmed_Khaled.pdf",
   displayGreeting: true
 };
 
@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/AhmedKhaled",
+  github: "https://github.com/AhmedKhaled2711",
   linkedin: "https://www.linkedin.com/in/ahmed-khaled",
-  gmail: "ahmed.khaled@gmail.com",
+  gmail: "eng.ahmedkhaled.work@gmail.com",
   display: true
 };
 
@@ -44,22 +44,27 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "ANDROID DEVELOPER FOCUSED ON CLEAN, SCALABLE & MAINTAINABLE APPS",
+  subTitle: "ANDROID DEVELOPER FOCUSED ON CLEAN ARCHITECTURE & PRODUCTION-READY APPS",
   skills: [
-    emoji("⚡ Build production-ready Android applications using Kotlin"),
-    emoji("⚡ Apply MVVM & Clean Architecture principles"),
-    emoji("⚡ Integrate REST APIs using Retrofit & Coroutines"),
-    emoji("⚡ Firebase Authentication, Firestore & Push Notifications"),
-    emoji("⚡ Unit Testing, Git, and Agile workflows")
+    emoji("⚡ Build production-ready Android applications using Kotlin & Java"),
+    emoji("⚡ Implement MVVM & Clean Architecture for scalable codebases"),
+    emoji("⚡ Integrate RESTful APIs using Retrofit & Coroutines"),
+    emoji("⚡ Firebase Authentication, Firestore & Real-time features"),
+    emoji("⚡ Unit testing, code reviews, and Agile development practices")
   ],
 
   softwareSkills: [
     { skillName: "Kotlin", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "Android", fontAwesomeClassname: "fab fa-android" },
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "Android SDK", fontAwesomeClassname: "fab fa-android" },
+    { skillName: "MVVM", fontAwesomeClassname: "fas fa-layer-group" },
+    { skillName: "Clean Architecture", fontAwesomeClassname: "fas fa-project-diagram" },
+    { skillName: "Retrofit", fontAwesomeClassname: "fas fa-network-wired" },
+    { skillName: "Coroutines", fontAwesomeClassname: "fas fa-sync-alt" },
+    { skillName: "Room Database", fontAwesomeClassname: "fas fa-database" },
     { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
     { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired" },
-    { skillName: "MVVM", fontAwesomeClassname: "fas fa-layer-group" }
+    { skillName: "Unit Testing", fontAwesomeClassname: "fas fa-vial" }
   ],
 
   display: true
@@ -107,31 +112,31 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, // Show proficiency section
+  viewSkillBars: true,
   experience: [
     {
       Stack: "Android Development",
       progressPercentage: "95%"
     },
     {
-      Stack: "Kotlin & Java",
+      Stack: "Kotlin",
       progressPercentage: "90%"
     },
     {
-      Stack: "Architecture (MVVM / Clean)",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "REST APIs & Networking",
+      Stack: "Java",
       progressPercentage: "85%"
     },
     {
-      Stack: "Firebase & Backend Integration",
+      Stack: "MVVM & Clean Architecture",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "REST APIs & Retrofit",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Firebase",
       progressPercentage: "80%"
-    },
-    {
-      Stack: "UI / Material Design",
-      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false
@@ -189,7 +194,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "REAL-WORLD AND PRACTICAL ANDROID APPLICATIONS I HAVE BUILT",
+  subtitle: "REAL-WORLD ANDROID APPLICATIONS DEMONSTRATING TECHNICAL EXPERTISE",
   projects: [
     {
       image: require("./assets/images/shoppe.png"),
