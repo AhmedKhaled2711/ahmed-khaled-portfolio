@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/AhmedKhaled2711",
-  linkedin: "https://www.linkedin.com/in/ahmed-khaled",
+  linkedin: "https://www.linkedin.com/in/ahmed-khaled-611892298",
   gmail: "eng.ahmedkhaled.work@gmail.com",
   display: true
 };
@@ -233,7 +233,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/sports.png"),
+      image: require("./assets/sports.jpg"),
       projectName: "Sports App",
       projectDesc:
         "Comprehensive sports application featuring live scores, team statistics, player profiles, and match schedules. Built with MVVM architecture, Room database for offline caching, and Retrofit for real-time data synchronization.",
