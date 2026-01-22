@@ -1,5 +1,5 @@
 {
-  "homepage": "https://AhmedKhaled2711.github.io/ahmed-khaled-portfolio/",
+  "homepage": "/ahmed-khaled-portfolio",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -24,8 +24,8 @@
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "prebuild": "node fetch.js",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
-    "deploy": "gh-pages -d build -b gh-pages -r https://github.com/AhmedKhaled2711/ahmed-khaled-portfolio.git",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -b gh-pages -d build -r https://github.com/AhmedKhaled2711/ahmed-khaled-portfolio.git",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
