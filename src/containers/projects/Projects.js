@@ -1,9 +1,10 @@
 import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
 import "./Project.scss";
 import Button from "../../components/button/Button";
-import {openSource, socialMediaLinks} from "../../portfolio";
+import {openSource, socialMediaLinks, bigProjects} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -15,25 +16,27 @@ export default function Projects() {
   const {isDark} = useContext(StyleContext);
 
   useEffect(() => {
-    const getRepoData = () => {
-      fetch("/profile.json")
-        .then(result => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
-        })
-        .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
-        })
-        .catch(function (error) {
-          console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
-          );
-          setrepoFunction("Error");
-        });
-    };
-    getRepoData();
+    if (openSource.display) {
+      const getRepoData = () => {
+        fetch("/profile.json")
+          .then(result => {
+            if (result.ok) {
+              return result.json();
+            }
+            throw result;
+          })
+          .then(response => {
+            setrepoFunction(response.data.user.pinnedItems.edges);
+          })
+          .catch(function (error) {
+            console.error(
+              `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
+            );
+            setrepoFunction("Error");
+          });
+      };
+      getRepoData();
+    }
   }, []);
 
   function setrepoFunction(array) {
@@ -69,6 +72,28 @@ export default function Projects() {
       </Suspense>
     );
   } else {
+    // Show bigProjects from portfolio.js when openSource is disabled
+    if (bigProjects.display) {
+      return (
+        <div className="main" id="projects">
+          <h1 className="project-title">{bigProjects.title}</h1>
+          <p className="project-subtitle">{bigProjects.subtitle}</p>
+          <div className="repo-cards-div-main">
+            {bigProjects.projects.map((project, i) => {
+              return (
+                <ProjectCard project={project} key={i} isDark={isDark} />
+              );
+            })}
+          </div>
+          <Button
+            text={"More Projects"}
+            className="project-button"
+            href={socialMediaLinks.github}
+            newTab={true}
+          />
+        </div>
+      );
+    }
     return <FailedLoading />;
   }
 }
