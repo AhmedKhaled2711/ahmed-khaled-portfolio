@@ -1,12 +1,15 @@
 import React from "react";
+import { HashRouter as Router } from "react-router-dom";
 import "./App.scss";
 import Main from "./containers/Main";
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      <div className="App">
+        <Main />
+      </div>
+    </Router>
   );
 }
 
