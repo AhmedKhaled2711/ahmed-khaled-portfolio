@@ -23,7 +23,7 @@ const greeting = {
   username: "Ahmed Khaled",
   title: "Hi, I'm Ahmed Khaled",
   subTitle: emoji(
-    "Android Developer 🚀 passionate about building clean, scalable mobile applications. Specialized in Kotlin, MVVM, Clean Architecture, and modern Android development practices."
+    "Android Developer 🚀 specializing in building production-ready mobile applications with Kotlin, Jetpack Compose, and Clean Architecture. Passionate about creating scalable, user-centric Android experiences."
   ),
   resumeLink: "/Ahmed_Khaled.pdf",
   displayGreeting: true
@@ -50,6 +50,7 @@ const skillsSection = {
     emoji("⚡ Implement MVVM & Clean Architecture for scalable codebases"),
     emoji("⚡ Integrate RESTful APIs using Retrofit & Coroutines"),
     emoji("⚡ Firebase Authentication, Firestore & Real-time features"),
+    emoji("⚡ Material Design 3 & Modern Android UI/UX"),
     emoji("⚡ Unit testing, code reviews, and Agile development practices")
   ],
 
@@ -57,14 +58,17 @@ const skillsSection = {
     { skillName: "Kotlin", fontAwesomeClassname: "fas fa-code" },
     { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
     { skillName: "Android SDK", fontAwesomeClassname: "fab fa-android" },
+    { skillName: "Jetpack Compose", fontAwesomeClassname: "fas fa-mobile-alt" },
     { skillName: "MVVM", fontAwesomeClassname: "fas fa-layer-group" },
     { skillName: "Clean Architecture", fontAwesomeClassname: "fas fa-project-diagram" },
     { skillName: "Retrofit", fontAwesomeClassname: "fas fa-network-wired" },
     { skillName: "Coroutines", fontAwesomeClassname: "fas fa-sync-alt" },
     { skillName: "Room Database", fontAwesomeClassname: "fas fa-database" },
     { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+    { skillName: "Material Design", fontAwesomeClassname: "fas fa-palette" },
     { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "Unit Testing", fontAwesomeClassname: "fas fa-vial" }
+    { skillName: "Unit Testing", fontAwesomeClassname: "fas fa-vial" },
+    { skillName: "CI/CD", fontAwesomeClassname: "fas fa-cogs" }
   ],
 
   display: true
@@ -79,7 +83,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Bachelor of Computer Science",
-      logo: require("./assets/images/universityLogo.png"),
+      logo: require("./assets/universityLogo.png"),
       subHeader: "Faculty of Computers and Information, Menofia University",
       duration: "2019 – 2023",
       desc: "Undergraduate program focused on computer science fundamentals and software development.",
@@ -92,7 +96,7 @@ const educationInfo = {
     },
     {
       schoolName: "Information Technology Institute (ITI)",
-      logo: require("./assets/images/itiLogo.png"),
+      logo: require("./assets/itiLogo.png"),
       subHeader:
         "9-Month Professional Diploma – Native Mobile Applications Development (MCIT)",
       duration: "Oct 2023 – Jun 2024",
@@ -131,12 +135,20 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
+      Stack: "Jetpack Compose",
+      progressPercentage: "80%"
+    },
+    {
       Stack: "REST APIs & Retrofit",
       progressPercentage: "85%"
     },
     {
-      Stack: "Firebase",
+      Stack: "Firebase & Backend",
       progressPercentage: "80%"
+    },
+    {
+      Stack: "Material Design 3",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false
@@ -186,8 +198,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false",
+  display: false
 };
 
 // Some big projects you have worked on
@@ -197,10 +209,10 @@ const bigProjects = {
   subtitle: "REAL-WORLD ANDROID APPLICATIONS DEMONSTRATING TECHNICAL EXPERTISE",
   projects: [
     {
-      image: require("./assets/images/shoppe.png"),
+      image: require("./assets/shoppe.png"),
       projectName: "Shoppe – Android E-Commerce App",
       projectDesc:
-        "A full-featured Android e-commerce application built with Kotlin following MVVM and Clean Architecture. The app supports product browsing, cart management, authentication, and real API integration.",
+        "A full-featured Android e-commerce application built with Kotlin, Jetpack Compose, and Clean Architecture. Features include product browsing, cart management, secure authentication, payment integration, and real-time API communication with offline support.",
       footerLink: [
         {
           name: "GitHub Repository",
@@ -209,10 +221,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/weather.png"),
+      image: require("./assets/weather.png"),
       projectName: "Weather Application",
       projectDesc:
-        "Android weather application consuming REST APIs to display real-time weather data with a clean and user-friendly interface.",
+        "Professional weather application with modern Material Design 3 UI. Features real-time weather data, location-based forecasts, weather alerts, and 7-day predictions using OpenWeatherMap API with proper error handling.",
       footerLink: [
         {
           name: "GitHub Repository",
@@ -224,7 +236,7 @@ const bigProjects = {
       image: require("./assets/images/sports.png"),
       projectName: "Sports App",
       projectDesc:
-        "Android application that displays sports leagues, events, teams, and players using a public sports API. Built using MVVM architecture with local caching.",
+        "Comprehensive sports application featuring live scores, team statistics, player profiles, and match schedules. Built with MVVM architecture, Room database for offline caching, and Retrofit for real-time data synchronization.",
       footerLink: [
         {
           name: "GitHub Repository",
@@ -233,10 +245,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/tictactoe.png"),
+      image: require("./assets/tictactoe.png"),
       projectName: "Tic Tac Toe – Online Multiplayer Game",
       projectDesc:
-        "Online multiplayer Tic Tac Toe game using Java sockets. Includes a server-side implementation handling multiple clients concurrently.",
+        "Real-time multiplayer Tic Tac Toe game with Java socket programming. Features client-server architecture, concurrent player handling, game state management, and real-time synchronization with robust error handling and reconnection logic.",
       footerLink: [
         {
           name: "Client App",
@@ -266,15 +278,15 @@ const twitterDetails = { display: false };
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "You can download my resume to learn more about my experience",
-  display: true // Set false to hide this section
+  title: "Download Resume",
+  subtitle: "Get my complete Android Developer resume with detailed technical experience and project portfolio",
+  display: true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Let's Connect 📱"),
   subtitle:
-    "Interested in working together or have a question? Feel free to reach out.",
+    "Interested in Android development opportunities or collaboration? Let's build amazing mobile apps together!",
   number: "+20 100 739 4856",
   email_address: "eng.ahmedkhaled.work@gmail.com"
 };
