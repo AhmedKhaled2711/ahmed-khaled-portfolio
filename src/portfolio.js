@@ -163,7 +163,7 @@ const workExperiences = {
     {
       role: "Android Developer",
       company: "Smart Lee",
-     // companylogo: require("./assets/images/smartleeLogo.png"),
+      companylogo: require("./assets/images/smartleeLogo.png"),
       date: "Jul 2024 – Sep 2025",
       desc:
         "Worked on a large-scale production Android application serving multiple service domains with a strong focus on clean architecture and performance.",
@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Freelance Android Developer",
       company: "HealthPlate App",
-      //companylogo: require("./assets/images/freelanceLogo.png"),
+      companylogo: require("./assets/images/freelanceLogo.png"),
       date: "2023 – 2024",
       desc:
         "Built a complete Android application focused on healthy eating and personalized nutrition using modern Android technologies.",
