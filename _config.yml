@@ -1,0 +1,3 @@
+# Prevent Jekyll from processing the built files
+# GitHub Pages will just serve the static files as-is
+skip_jekyll: true
