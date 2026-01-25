@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Android Developer 🚀 specializing in building production-ready mobile applications with Kotlin, Jetpack Compose, and Clean Architecture. Passionate about creating scalable, user-centric Android experiences."
   ),
-  resumeLink: "/Ahmed_Khaled.pdf",
+  resumeLink: process.env.PUBLIC_URL + "/Ahmed_Khaled.pdf",
   displayGreeting: true
 };
 
