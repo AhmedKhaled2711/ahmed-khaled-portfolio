@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ahmed-khaled-portfolio/static/css/main.83c10694.css",
-    "main.js": "/ahmed-khaled-portfolio/static/js/main.0df721ab.js",
+    "main.css": "/ahmed-khaled-portfolio/static/css/main.1560bfd9.css",
+    "main.js": "/ahmed-khaled-portfolio/static/js/main.025018a6.js",
     "static/css/64.bba8fa55.chunk.css": "/ahmed-khaled-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.98920275.chunk.js": "/ahmed-khaled-portfolio/static/js/64.98920275.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/ahmed-khaled-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -14,15 +14,15 @@
     "static/media/freelanceLogo.jpg": "/ahmed-khaled-portfolio/static/media/freelanceLogo.42b58b6abe334072cc40.jpg",
     "static/media/weather.png": "/ahmed-khaled-portfolio/static/media/weather.13aaf89f5967137ddef7.png",
     "index.html": "/ahmed-khaled-portfolio/index.html",
-    "main.83c10694.css.map": "/ahmed-khaled-portfolio/static/css/main.83c10694.css.map",
-    "main.0df721ab.js.map": "/ahmed-khaled-portfolio/static/js/main.0df721ab.js.map",
+    "main.1560bfd9.css.map": "/ahmed-khaled-portfolio/static/css/main.1560bfd9.css.map",
+    "main.025018a6.js.map": "/ahmed-khaled-portfolio/static/js/main.025018a6.js.map",
     "64.bba8fa55.chunk.css.map": "/ahmed-khaled-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.98920275.chunk.js.map": "/ahmed-khaled-portfolio/static/js/64.98920275.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/ahmed-khaled-portfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.88165ab4.chunk.js.map": "/ahmed-khaled-portfolio/static/js/769.88165ab4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83c10694.css",
-    "static/js/main.0df721ab.js"
+    "static/css/main.1560bfd9.css",
+    "static/js/main.025018a6.js"
   ]
 }
