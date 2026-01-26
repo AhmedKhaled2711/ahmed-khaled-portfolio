@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ahmed-khaled-portfolio/static/css/main.83c10694.css",
-    "main.js": "/ahmed-khaled-portfolio/static/js/main.d5736bff.js",
+    "main.js": "/ahmed-khaled-portfolio/static/js/main.0df721ab.js",
     "static/css/64.bba8fa55.chunk.css": "/ahmed-khaled-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.98920275.chunk.js": "/ahmed-khaled-portfolio/static/js/64.98920275.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/ahmed-khaled-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -11,11 +11,11 @@
     "static/media/Agustina.woff": "/ahmed-khaled-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/itiLogo.png": "/ahmed-khaled-portfolio/static/media/itiLogo.ecdcde119d6385ddbf34.png",
     "static/media/sports.jpg": "/ahmed-khaled-portfolio/static/media/sports.03e2f8c5ae06b01f9756.jpg",
-    "static/media/universityLogo.png": "/ahmed-khaled-portfolio/static/media/universityLogo.7e96f8074da451170788.png",
+    "static/media/freelanceLogo.jpg": "/ahmed-khaled-portfolio/static/media/freelanceLogo.42b58b6abe334072cc40.jpg",
     "static/media/weather.png": "/ahmed-khaled-portfolio/static/media/weather.13aaf89f5967137ddef7.png",
     "index.html": "/ahmed-khaled-portfolio/index.html",
     "main.83c10694.css.map": "/ahmed-khaled-portfolio/static/css/main.83c10694.css.map",
-    "main.d5736bff.js.map": "/ahmed-khaled-portfolio/static/js/main.d5736bff.js.map",
+    "main.0df721ab.js.map": "/ahmed-khaled-portfolio/static/js/main.0df721ab.js.map",
     "64.bba8fa55.chunk.css.map": "/ahmed-khaled-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.98920275.chunk.js.map": "/ahmed-khaled-portfolio/static/js/64.98920275.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/ahmed-khaled-portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.83c10694.css",
-    "static/js/main.d5736bff.js"
+    "static/js/main.0df721ab.js"
   ]
 }
