@@ -83,7 +83,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Bachelor of Computer Science",
-      logo: require("./assets/universityLogo.png"),
+      logo: require("./assets/universityLogo.jpg"),
       subHeader: "Faculty of Computers and Information, Menofia University",
       duration: "2019 – 2023",
       desc: "Undergraduate program focused on computer science fundamentals and software development.",
@@ -163,7 +163,7 @@ const workExperiences = {
     {
       role: "Android Developer",
       company: "Smart Lee",
-      companylogo: require("./assets/images/smartleeLogo.png"),
+      companylogo: require("./assets/smartleeLogo.png"),
       date: "Jul 2024 – Sep 2025",
       desc:
         "Worked on a large-scale production Android application serving multiple service domains with a strong focus on clean architecture and performance.",
@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Freelance Android Developer",
       company: "HealthPlate App",
-      companylogo: require("./assets/images/freelanceLogo.png"),
+      companylogo: require("./assets/freelanceLogo.jpg"),
       date: "2023 – 2024",
       desc:
         "Built a complete Android application focused on healthy eating and personalized nutrition using modern Android technologies.",
